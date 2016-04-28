@@ -1,0 +1,7 @@
+Usuario
+ [x] Criar usuario
+
+Regras
+ [x] Usuario tem acesso ao modulo
+ [ ] Usuario pode criar no modulo
+

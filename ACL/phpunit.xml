@@ -1,0 +1,36 @@
+<phpunit
+    verbose="true"
+    colors="true"
+    bootstrap="autoload.php">
+    <testsuites>
+        <testsuite name="entidades">
+            <directory>
+                tests/Entidade
+            </directory>
+        </testsuite>
+        <testsuite name="regras">
+            <directory>
+                tests/Dominio
+            </directory>
+        </testsuite>
+    </testsuites>
+    <filter>
+        <whitelist
+            addUncoveredFilesFromWhitelist="true"
+            processUncoveredFilesFromWhitelist="true">
+            <directory>src/</directory>
+        </whitelist>
+    </filter>
+    <logging>
+        <log type="coverage-html"
+                target="relatorios/"
+                lowUpperBound="30"
+                highLowerBound="95" />
+        <log type="coverage-text"
+                target="relatorios/cobertura.txt"
+                showUncoveredFiles="true" />
+        <log type="testdox-text"
+                target="requisitos/requisitos.txt" />
+        <log type="log-junit" target="relatorios/junit.xml" />
+    </logging>
+</phpunit>

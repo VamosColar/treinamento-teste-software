@@ -1,0 +1,29 @@
+<phpunit
+    verbose="true"
+    colors="true"
+    bootstrap="lib/autoload.php">
+    <testsuites>
+        <testsuite name="funções">
+            <directory>
+                tests/MatPHP/FuncaoMatematica
+            </directory>
+        </testsuite>
+        <testsuite name="tipos">
+            <directory>
+                tests/MatPHP/Tipo
+            </directory>
+        </testsuite>
+    </testsuites>
+    <filter>
+        <whitelist addUncoveredFilesFromWhitelist="true"
+                   processUncoveredFilesFromWhitelist="true">
+            <directory>lib/MatPHP</directory>
+        </whitelist>
+    </filter>
+    <logging>
+        <log type="coverage-html" target="relatorios/" lowUpperBound="35"
+           highLowerBound="70" showUncoveredFiles="true"/>
+        <log type="coverage-text" target="relatorios/cobertura.txt" showUncoveredFiles="true"/>
+        <log type="testdox-text" target="requisitos/requisitos.txt"/>
+    </logging>
+</phpunit>

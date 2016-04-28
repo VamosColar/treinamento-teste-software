@@ -1,0 +1,25 @@
+DecomposicaoDeFatores
+ [x] Calculo de fatores
+ [x] Calculo de fatores de primos
+
+Fatorial
+ [x] Calculo de fatorial
+ [x] Fatorial de um
+ [x] Fatorial de zero
+ [x] Fatorial negativo nao existe
+ [x] Fatorial so aceita inteiro positivo
+
+MDC
+ [x] Calculo do MDC
+ [x] MDC com Parametros Insuficientes
+
+MMC
+ [x] Calculo do MMC
+
+NumeroComplexo
+ [x] Representacao numerica
+ [x] Soma de numeros complexos
+ [x] Subtracao de numeros complexos
+ [x] Multiplicacao de numeros complexos
+ [x] Get valores
+

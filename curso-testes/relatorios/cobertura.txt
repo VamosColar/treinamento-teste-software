@@ -1,0 +1,28 @@
+
+
+Code Coverage Report:    
+  2016-04-26 14:20:52    
+                         
+ Summary:                
+  Classes: 77.78% (7/9)  
+  Methods: 84.00% (21/25)
+  Lines:   95.35% (82/86)
+
+\MatPHP\FuncaoMatematica::DecomposicaoDeFatores
+  Methods: 100.00% ( 2/ 2)   Lines: 100.00% ( 11/ 11)
+\MatPHP\FuncaoMatematica::Fatorial
+  Methods: 100.00% ( 3/ 3)   Lines: 100.00% ( 10/ 10)
+\MatPHP\FuncaoMatematica::FatorialNaoInteiroException
+  Methods: 100.00% ( 1/ 1)   Lines: 100.00% (  2/  2)
+\MatPHP\FuncaoMatematica::FatorialNegativoException
+  Methods: 100.00% ( 1/ 1)   Lines: 100.00% (  2/  2)
+\MatPHP\FuncaoMatematica::MDC
+  Methods: 100.00% ( 4/ 4)   Lines: 100.00% ( 20/ 20)
+\MatPHP\FuncaoMatematica::MDCParametrosInsuficientesException
+  Methods: 100.00% ( 1/ 1)   Lines: 100.00% (  2/  2)
+\MatPHP\FuncaoMatematica::MMC
+  Methods: 100.00% ( 4/ 4)   Lines: 100.00% ( 15/ 15)
+\MatPHP\Tipo::NumeroComplexo
+  Methods:  62.50% ( 5/ 8)   Lines:  85.71% ( 18/ 21)
+\MatPHP\Tipo::RepresentacaoNumerica
+  Methods:   0.00% ( 0/ 1)   Lines:   0.00% (  0/  1)

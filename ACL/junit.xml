@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="" tests="3" assertions="6" failures="0" errors="0" time="0.024421">
+    <testsuite name="entidades" tests="1" assertions="4" failures="0" errors="0" time="0.011177">
+      <testsuite name="UsuarioTest" file="/home/marcio/projetos/ACL/tests/Entidade/UsuarioTest.php" tests="1" assertions="4" failures="0" errors="0" time="0.011177">
+        <testcase name="testCriarUsuario" class="UsuarioTest" file="/home/marcio/projetos/ACL/tests/Entidade/UsuarioTest.php" line="13" assertions="4" time="0.011177"/>
+      </testsuite>
+    </testsuite>
+    <testsuite name="regras" tests="2" assertions="2" failures="0" errors="0" time="0.013244">
+      <testsuite name="RegrasTest" file="/home/marcio/projetos/ACL/tests/Dominio/RegrasTest.php" tests="2" assertions="2" failures="0" errors="0" time="0.013244">
+        <testsuite name="RegrasTest::testUsuarioTemAcessoAoModulo" tests="2" assertions="2" failures="0" errors="0" time="0.013244">
+          <testcase name="testUsuarioTemAcessoAoModulo with data set #0" assertions="1" time="0.006894"/>
+          <testcase name="testUsuarioTemAcessoAoModulo with data set #1" assertions="1" time="0.006350"/>
+        </testsuite>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testsuites>
